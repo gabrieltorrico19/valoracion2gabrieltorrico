@@ -1,0 +1,57 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #e0f7fa; /* Color suave para el fondo */
+        }
+
+        h2 {
+            color: #00796b; /* Color del encabezado */
+        }
+
+        form {
+            background-color: #ffffff; /* Fondo blanco para el formulario */
+            border-radius: 15px; /* Bordes redondeados */
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #00796b; /* Color para las etiquetas */
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px; /* Mayor espacio interno */
+            margin-top: 5px;
+            border: 1px solid #00796b; /* Bordes de los campos */
+            border-radius: 10px; /* Bordes redondeados */
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+        }
+
+        input:focus, select:focus {
+            border-color: #004d40; /* Color al enfocar */
+            outline: none; /* Sin contorno */
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #00796b; /* Color del botón */
+            color: white;
+            border: none;
+            border-radius: 10px; /* Bordes redondeados para el botón */
+            cursor: pointer;
+            transition: background-color 0.3s; /* Efecto de transición */
+        }
+
+        button:hover {
+            background-color: #004d40; /* Color del botón al pasar el ratón */
+        }
+
+	.imagen-redondeada {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 15px; /* Bordes redondeados */
+}
